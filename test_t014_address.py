@@ -1,5 +1,6 @@
 # Test Case T014 – Add Address in Address Book (F14)
 # Author: Shinje Kim
+# Refer to the project README for setup and execution instructions: https://github.com/shinjekim/32571_EST
 
 import time
 import pytest

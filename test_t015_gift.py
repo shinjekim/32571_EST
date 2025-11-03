@@ -1,5 +1,6 @@
 # Test Case T015 – Purchase a Gift Certificate (F15)
 # Author: Shinje Kim
+# Refer to the project README for setup and execution instructions: https://github.com/shinjekim/32571_EST
 
 import pytest
 from selenium.webdriver.common.by import By
