@@ -1,4 +1,4 @@
-# Test Case T010 – Write a Product Review (F10)
+# Test Case T013 – Write a Product Review (F13)
 # Author: Shinje Kim
 
 import pytest
@@ -25,8 +25,8 @@ def submit_review(driver):
     driver.execute_script("arguments[0].click();", submit_btn)
 
 @pytest.mark.selenium
-def test_T010_write_product_review(driver):
-    print("\n=== Test Case T010: Write a Product Review ===")
+def test_T013_write_product_review(driver):
+    print("\n=== Test Case T013: Write a Product Review ===")
 
     driver.get(PRODUCT_URL)
     WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "form-review")))
@@ -85,4 +85,4 @@ def test_T010_write_product_review(driver):
     assert len(reviews) == 0, "Review should not appear instantly (requires approval)"
     print("[PASS] Review not instantly visible (moderation required)")
 
-    print("=== Test Case T010: PASSED ===\n")
+    print("=== Test Case T013: PASSED ===\n")

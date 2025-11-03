@@ -1,4 +1,4 @@
-# Test Case T012 – Purchase a Gift Certificate (F12)
+# Test Case T015 – Purchase a Gift Certificate (F15)
 # Author: Shinje Kim
 
 import pytest
@@ -32,8 +32,8 @@ def login(driver):
 
 # Main test case: Purchase a Gift Certificate
 @pytest.mark.selenium
-def test_T012_purchase_gift_certificate(driver):
-    print("\n=== Test Case T012: Purchase a Gift Certificate ===")
+def test_T015_purchase_gift_certificate(driver):
+    print("\n=== Test Case T015: Purchase a Gift Certificate ===")
 
     # Step 0: Login first
     login(driver)
@@ -78,5 +78,5 @@ def test_T012_purchase_gift_certificate(driver):
     assert "Thank you for purchasing a gift certificate" in success.text
     print("[PASS] Success message displayed on confirmation page")
 
-    print("=== Test Case T012: PASSED ===\n")
+    print("=== Test Case T015: PASSED ===\n")
 

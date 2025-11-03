@@ -1,4 +1,4 @@
-# Test Case T011 – Add Address in Address Book (F11)
+# Test Case T014 – Add Address in Address Book (F14)
 # Author: Shinje Kim
 
 import time
@@ -35,11 +35,11 @@ def login(driver):
     print("[PASS] Logged in successfully")
 
 
-#Test Case 11: Add Address in Address Book (F11)
+#Test Case 14: Add Address in Address Book (F14)
 #Test Scenario: Verify that a user can add a new address successfully
 @pytest.mark.selenium
-def test_T011_add_address(driver):
-    print("\n=== Test Case T011: Add Address in Address Book ===")
+def test_T014_add_address(driver):
+    print("\n=== Test Case T014: Add Address in Address Book ===")
 
     # Step 0: Login
     login(driver)
@@ -144,4 +144,4 @@ def test_T011_add_address(driver):
 
     print("[PASS] Edit form shows previously saved details")
 
-    print("=== Test Case T011: PASSED ===\n")
+    print("=== Test Case T014: PASSED ===\n")
